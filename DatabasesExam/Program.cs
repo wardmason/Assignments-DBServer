@@ -24,6 +24,8 @@ namespace DatabasesExam
         {
             //connect to the database
             //referenced from MySQL documentation
+
+            /*
             string connStr = "server=localhost;user=root;database=Assignments;port=3306;password=mypassword";
             MySqlConnection conn = new MySqlConnection(connStr);
 
@@ -38,6 +40,7 @@ namespace DatabasesExam
             {
                 Console.WriteLine(ex.ToString());
             }
+            */
 
             p.StartServer();
 
